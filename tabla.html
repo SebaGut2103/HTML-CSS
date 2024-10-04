@@ -1,133 +1,119 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tablas</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Tablas de HTML</h1>
-    <hr>
-    <table align="center" border="1" width="50%" 
-    cellspacing="10" cellpading="10" bgcolor="#F9e79F"
-    border="#ff5733">
-        <tr bgcolor="#ffc300">
-            <th colspan="2">Celda1</th>
-            <!-- <th>Celda2</th> -->
-            <th>Celda3</th>
-        </tr>
-        <tr align="rigth" bgcolor="#ff5733">
-            <th>Celda4</th>
-            <td rowspan="2">Celda5</td>
-            <td>Celda6</td>
-        </tr>
-        <tr align="left">
-            <th>Celda7</th>
-            <!-- <td align="center">Celda8</td> -->
-            <td align="rigth">Celda9</td>
-        </tr>
+    <hr />
+    <table
+      align="center"
+      border="1"
+      width="50%"
+      cellspacing="10"
+      cellpading="10"
+      bgcolor="#F9e79F"
+      border="#ff5733"
+    >
+      <tr bgcolor="#ffc300">
+        <th colspan="2">Celda1</th>
+        <!-- <th>Celda2</th> -->
+        <th>Celda3</th>
+      </tr>
+      <tr align="rigth" bgcolor="#ff5733">
+        <th>Celda4</th>
+        <td rowspan="2">Celda5</td>
+        <td>Celda6</td>
+      </tr>
+      <tr align="left">
+        <th>Celda7</th>
+        <!-- <td align="center">Celda8</td> -->
+        <td align="rigth">Celda9</td>
+      </tr>
     </table>
-    <br><br><br>
-    <table align="center" border="1" width="50%"
-    cellpadding="80">
-        <tr align="center">
-            <th colspan="5">
-                A · B <br>
-                colspan
-            </th>
-            <th rowspan="4">
-                C·f <br>
-                rowspan 
-             </th>
+    <br /><br /><br />
+    <table align="center" border="1" width="50%" cellpadding="80">
+      <tr align="center">
+        <th colspan="5">
+          A · B <br />
+          colspan
+        </th>
+        <th rowspan="4">
+          C·f <br />
+          rowspan
+        </th>
+      </tr>
+      <tr></tr>
+      <tr>
+        <td align="center" colspan="2">D</td>
+        <td align="center">E</td>
+      </tr>
+    </table>
+    <br /><br /><br />
+    <hr />
+    <table border="1" width="50%" cellpadding="20">
+      <thead>
+        <tr>
+          <th>Tipo dato A</th>
+          <th>Tipo dato B</th>
+          <th>Tipo dato C</th>
+        </tr>
+      </thead>
+      <tbody align="center">
+        <tr>
+          <td>A</td>
+          <td>B</td>
+          <td>C</td>
         </tr>
         <tr>
+          <td>D</td>
+          <td>E</td>
+          <td>F</td>
         </tr>
+      </tbody>
+      <tfoot align="center">
         <tr>
-
-            <td align="center" colspan="2">
-                D 
-             </td>
-             <td align="center">E</td>
+          <td>G</td>
+          <td>H</td>
+          <td>I</td>
         </tr>
+      </tfoot>
+      <caption>
+        <i><strong>Tipo de Datos</strong></i>
+      </caption>
     </table>
-    <br><br><br>
-    <hr>
-    <table border="1" width="50%" cellpadding="20" >
-        <thead>
-            <tr>
-                <th>Tipo dato A</th>
-                <th>Tipo dato B</th>
-                <th>Tipo dato C</th>
-            </tr>
-        </thead>
-        <tbody align="center">
-            <tr>
-                <td>A</td>
-                <td>B</td>
-                <td>C</td>
-            </tr>
-            <tr>
-                <td>D</td>
-                <td>E</td>
-                <td>F</td>
-            </tr>
-            
-        </tbody>
-        <tfoot align="center">
-            <tr>
-                <td>G</td>
-                <td>H</td>
-                <td>I</td>
-            </tr>
-        </tfoot>
-        <caption>
-            <i><strong>Tipo de Datos</strong></i>
-        </caption>
-    </table>
-    <hr>
-    <br><br><br>
+    <hr />
+    <br /><br /><br />
     <table border="1" width="25%" bgcolor="#f5efd7">
-        <thead bgcolor="#e61919">
-            <tr>
-                <th><font color="white">País</font></th>
-                <th><font color="white">Capítal</font></th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-            <td>
-                Mexíco
-            </td>
-            <td>
-                Cd. de Mexíco
-            </td>
-            </tr>
-            <tr>
-                <td>
-                    Canada
-                </td>
-                <td>
-                    Otawa
-                </td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <td>
-                    Estados Unidos
-                </td>
-                <td>
-                    Washintong
-                </td>
-            </tr>
-        </tfoot>
+      <thead bgcolor="#e61919">
+        <tr>
+          <th><font color="white">País</font></th>
+          <th><font color="white">Capítal</font></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Mexíco</td>
+          <td>Cd. de Mexíco</td>
+        </tr>
+        <tr>
+          <td>Canada</td>
+          <td>Otawa</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Estados Unidos</td>
+          <td>Washintong</td>
+        </tr>
+      </tfoot>
     </table>
-    <br><br><br>
-<hr>
- <table>
-    <thead>
-
-    </thead>
- </table>
-</body>
+    <br /><br /><br />
+    <hr />
+    <table>
+      <thead></thead>
+    </table>
+  </body>
 </html>
